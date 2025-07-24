@@ -101,15 +101,15 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    column-gap: 10px;
+    column-gap: 15px;
     row-gap: 30px;
-    border: 1px solid red;
 }
 .plants-card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    box-shadow: 8px 10px 10px gray;
 }
 .plants-card img{
     width: 270px;
