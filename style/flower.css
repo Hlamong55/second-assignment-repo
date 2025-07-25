@@ -30,6 +30,10 @@ nav{
     align-items: center;
     margin-top: 20px;
 }
+.mbl-list{
+    display: flex;
+    gap: 15px;
+}
 .nav-items{
     display: flex;
     gap: 30px;
@@ -46,6 +50,7 @@ nav{
 #cart, i{
     color: #252432;
 }
+
 
 
 /* banner section */
@@ -95,11 +100,13 @@ nav{
     margin: 5px 0;
 }
 
+
+
 /* card section */
 .plants-card-container{
     margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
     column-gap: 15px;
     row-gap: 30px;
@@ -143,7 +150,7 @@ nav{
 
 .join-img{
     position: relative;
-    flex: 1;
+    /* flex: 1; */
 }
 .flower-store{
     width: 100%;
@@ -163,6 +170,7 @@ nav{
 .text-list{
     display: flex;
     flex-direction: column;
+
 }
 .text-list ul{
     display: flex;
@@ -170,3 +178,74 @@ nav{
     row-gap: 20px;
 }
 
+
+
+
+
+/* media wuery */
+@media screen and (max-width:576px) {
+    .mbl-list{
+        display: none;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .banner-title{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    }
+    .banner-p{
+    color: #8987A1;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0;
+    }
+
+
+    .plants-card-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+        gap: 20px;
+    }
+    .our-plants{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+   }
+   .plants-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px 0;
+    margin-bottom: 10px;
+    }
+    .plants-card img{
+    width: 200px;
+    height: 200px;
+    }
+
+
+    .lover{
+    margin-top: 70px;
+    /* margin-bottom: 10px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 30px;
+    }
+    .badge{
+    display: none;
+    }
+
+    .plants-title{
+    font-size: 20px;
+    font-weight: bold;
+    /* margin: 5px 0; */
+    }
+}
