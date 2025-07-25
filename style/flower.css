@@ -134,7 +134,7 @@ nav{
 /* flower lover section */
 .lover{
     margin-top: 250px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
@@ -171,3 +171,84 @@ nav{
 }
 
 
+/* challenge section */
+challenge{
+    margin-top: 300px;
+}
+.deal-text{
+    text-align: center;
+}
+/* 
+.deal-container{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+.deal-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7));
+}
+.center-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+}
+.center-text a{
+    color: white;
+} */
+
+.row img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.row{
+    height: 435px;
+    display: flex;
+    gap: 28px;
+    margin-top: 100px;
+}
+.twins img{
+    width: 367px;
+    /* height: calc(( 100% - 20px)/2 ); */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.bloom-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bloom-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+.bloom-text h1{
+    font-weight: bold;
+    font-weight: 200px;
+}
+#sada{
+    color: white;
+    font-size: bolder;  
+}
