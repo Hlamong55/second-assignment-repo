@@ -32,10 +32,10 @@
     />
   </head>
 
-  <body class="w-11/12 mx-auto container noto-serif-normal">
+  <body class=" container noto-serif-normal">
     <main>
       <!-- navbar section -->
-      <nav class="inter-normal">
+      <nav class="w-11/12 mx-auto inter-normal">
         <img src="images/logo.png" alt="" />
 
         <ul class="nav-items">
@@ -57,7 +57,7 @@
       </nav>
 
       <!-- banner section -->
-      <header class="hero-section">
+      <header class="w-11/12 mx-auto hero-section">
         <div class="banner">
           <h1 class="noto-serif-normal banner-title">
             ALWAYS <span class="orange">FRESH <br />FLOWERS</span>
@@ -75,7 +75,7 @@
       </header>
 
       <!-- plants section -->
-      <section class="plants">
+      <section class="plants w-11/12 mx-auto">
         <div class="our-plants">
           <h2 class="noto-serif-normal plants-title">
             <span class="orange">Our</span> Plants
@@ -148,7 +148,7 @@
       </section>
 
       <!-- plants lover section -->
-      <section class="lover">
+      <section class="lover w-11/12 mx-auto">
         <div class="join-img">
           <img
             id="img1"
@@ -249,14 +249,46 @@
     </main>
 
 
+    <!-- join section -->
+<section class="mt-14 lg:px-4">
+  <div class="relative w-full h-[400px] lg:h-[500px]">
+    <div class="absolute inset-0 bg-black/30 z-10"></div>
+    <div class="absolute inset-0 z-20 flex flex-col items-center justify-center text-center text-white px-4">
+      <p class="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight">
+        Join the colorful 
+        Bunch
+      </p>
+
+      <div class="mt-4 lg:w-full lg:max-w-md flex bg-white">
+        <input
+          type="email"
+          placeholder="Write email"
+          aria-label="Email address"
+          class="flex-1 px-4 py-2 text-black outline-none"
+        />
+        <button class="bg-[#E95A08] px-4 py-2 text-white font-semibold ">
+          Subscribe
+        </button>
+      </div>
+    </div>
+
+    <!-- Background Image -->
+    <img
+      src="./images/news-letter-bg.png"
+      alt="Newsletter Background"
+      class="w-full h-full object-cover z-0"
+    />
+  </div>
+</section>
+
 
     
 
 
 
     <!-- footer section -->
-      <footer class="w-9/12 mx-auto mt-10 py-10">
-      <div class="flex flex-col md:grid grid-cols-3 gap-8">
+      <footer class="w-11/12 mx-auto mt-10 lg:py-10">
+      <div class="flex flex-col justify-between md:grid grid-cols-3 gap-8">
         <div class="space-y-4 mt-6">
           <img src="./images/logo.png" alt="Logo" class="w-32" />
           <p>
